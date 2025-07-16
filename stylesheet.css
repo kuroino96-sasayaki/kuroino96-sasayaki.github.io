@@ -19,8 +19,10 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(top.png);
-  background-size: cover;
+  background-image: url(sasayakifeature.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:top center;
   color: white;
   text-align: center;
 }
@@ -85,8 +87,8 @@ header {
 }
 
 .logo {
-  width: 124px;
-  margin-top: 20px;
+  width: 40px;
+  margin-top: 10px;
 }
 
 .header-left {
@@ -112,7 +114,6 @@ header {
 }
 
 .lesson-wrapper {
-  height: 580px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
